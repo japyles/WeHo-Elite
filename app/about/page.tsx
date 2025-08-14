@@ -53,7 +53,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="/placeholder.svg?height=500&width=600"
+                src="/office.jpg"
                 alt="West Hollywood Elite Office"
                 className="rounded-lg shadow-2xl"
               />
@@ -83,21 +83,35 @@ export default function AboutPage() {
                 title: "Founding Partner & CEO",
                 experience: "25+ Years Experience",
                 specialization: "Luxury Estates & Celebrity Homes",
-                image: "/placeholder.svg?height=400&width=300",
+                image: "/victoria-sterling.jpg",
               },
               {
                 name: "Marcus Blackwell",
                 title: "Senior Partner",
                 experience: "20+ Years Experience",
                 specialization: "Investment Properties & Development",
-                image: "/placeholder.svg?height=400&width=300",
+                image: "/markus-blackwell.jpg",
               },
               {
                 name: "Sophia Chen",
                 title: "Director of Sales",
                 experience: "15+ Years Experience",
                 specialization: "International Clients & Modern Architecture",
-                image: "/placeholder.svg?height=400&width=300",
+                image: "/sophia-chen.jpg",
+              },
+              {
+                name: "Alexander Reed",
+                title: "Senior Sales Associate",
+                experience: "10+ Years Experience",
+                specialization: "International Clients & Modern Architecture",
+                image: "/Alexander-reed.jpg",
+              },
+              {
+                name: "Isabella Martinez",
+                title: "Senior Sales Associate",
+                experience: "8+ Years Experience",
+                specialization: "International Clients & Modern Architecture",
+                image: "/isabella-martinez.jpg",
               },
             ].map((agent, index) => (
               <Card

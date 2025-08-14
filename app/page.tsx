@@ -3,9 +3,11 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
 
 export default function HomePage() {
+  const router = useRouter()
   const fadeInUp = {
     initial: { opacity: 0, y: 60 },
     animate: { opacity: 1, y: 0 },
@@ -132,6 +134,7 @@ export default function HomePage() {
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
+                onClick={() => router.push("/inventory")}
                 size="lg"
                 className="bg-gradient-to-r from-amber-400 to-amber-600 text-black hover:from-amber-500 hover:to-amber-700 font-semibold px-8 py-3 text-lg"
               >
@@ -140,6 +143,7 @@ export default function HomePage() {
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
+              onClick={() => router.push("/contact")}
                 variant="outline"
                 size="lg"
                 className="border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-3 text-lg bg-transparent"
@@ -190,28 +194,28 @@ export default function HomePage() {
           >
             {[
               {
-                price: "$8.5M",
-                address: "1234 Sunset Strip, West Hollywood",
-                beds: 5,
-                baths: 6,
-                sqft: "4,200",
-                image: "/placeholder.svg?height=300&width=400",
-              },
-              {
-                price: "$12.2M",
-                address: "5678 Melrose Avenue, West Hollywood",
+                price: "$29,950,000",
+                address: "1535 Blue Jay Way, Hollywood Hills, California",
                 beds: 6,
                 baths: 7,
-                sqft: "5,800",
-                image: "/placeholder.svg?height=300&width=400",
+                sqft: "6,200",
+                image: "/1535BlueJayWay.jpg",
               },
               {
-                price: "$15.7M",
-                address: "9012 Hollywood Hills Drive",
+                price: "$68,000,000",
+                address: "9330 Flicker Way, Los Angeles9330, California",
+                beds: 8,
+                baths: 10,
+                sqft: "12,000",
+                image: "/9330FlickerWay.avif",
+              },
+              {
+                price: "$22,800,000",
+                address: "1200 Laurel Way, Beverly Hills, California",
                 beds: 7,
-                baths: 8,
-                sqft: "6,500",
-                image: "/placeholder.svg?height=300&width=400",
+                baths: 9,
+                sqft: "8,500",
+                image: "/1200LaurelWay.webp",
               },
             ].map((property, index) => (
               <motion.div

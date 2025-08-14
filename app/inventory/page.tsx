@@ -66,7 +66,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Victoria Sterling",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/victoria-sterling.jpg",
         phone: "(310) 555-0123",
         email: "victoria@whelite.com",
       },
@@ -101,7 +101,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Marcus Blackwell",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/markus-blackwell.jpg",
         phone: "(310) 555-0124",
         email: "marcus@whelite.com",
       },
@@ -137,7 +137,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Sophia Chen",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/sophia-chen.jpg",
         phone: "(310) 555-0125",
         email: "sophia@whelite.com",
       },
@@ -173,7 +173,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Victoria Sterling",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/victoria-sterling.jpg",
         phone: "(310) 555-0123",
         email: "victoria@whelite.com",
       },
@@ -209,7 +209,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Marcus Blackwell",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/markus-blackwell.jpg",
         phone: "(310) 555-0124",
         email: "marcus@whelite.com",
       },
@@ -245,7 +245,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Sophia Chen",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/sophia-chen.jpg",
         phone: "(310) 555-0125",
         email: "sophia@whelite.com",
       },
@@ -278,7 +278,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Alexander Reed",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/Alexander-reed.jpg",
         phone: "(310) 555-0126",
         email: "alexander@whelite.com",
       },
@@ -313,7 +313,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Isabella Martinez",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/isabella-martinez.jpg",
         phone: "(310) 555-0127",
         email: "isabella@whelite.com",
       },
@@ -347,7 +347,7 @@ export default function InventoryPage() {
       ],
       agent: {
         name: "Victoria Sterling",
-        image: "/placeholder.svg?height=100&width=100",
+        image: "/victoria-sterling.jpg",
         phone: "(310) 555-0123",
         email: "victoria@whelite.com",
       },
