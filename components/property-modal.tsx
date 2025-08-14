@@ -223,6 +223,7 @@ export default function PropertyModal({ property, isOpen, onClose }: PropertyMod
                         <Button
                           variant="outline"
                           className="w-full border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black bg-transparent"
+                          onClick={() => router.push("/contact")}
                         >
                           Contact Agent
                         </Button>
