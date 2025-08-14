@@ -356,7 +356,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button size="lg" className="bg-black text-white hover:bg-gray-900 font-semibold px-8 py-3">
+              <Button size="lg" className="bg-black text-white hover:bg-gray-900 font-semibold px-8 py-3" onClick={() => router.push('/contact')}>
                 Schedule Private Viewing
               </Button>
             </motion.div>
@@ -365,7 +365,8 @@ export default function HomePage() {
                 variant="outline"
                 size="lg"
                 className="border-black text-black hover:bg-black hover:text-white font-semibold px-8 py-3 bg-transparent"
-              >
+                onClick={() => router.push('/contact')}
+                  >
                 Contact Our Team
               </Button>
             </motion.div>

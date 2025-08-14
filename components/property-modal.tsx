@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { X, Bed, Bath, Square, Calendar, Phone, Mail } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 interface Property {
   id: number
@@ -34,6 +35,7 @@ interface PropertyModalProps {
 }
 
 export default function PropertyModal({ property, isOpen, onClose }: PropertyModalProps) {
+  const router = useRouter()
   if (!property) return null
 
   return (
@@ -215,7 +217,7 @@ export default function PropertyModal({ property, isOpen, onClose }: PropertyMod
                       </div>
 
                       <div className="space-y-3">
-                        <Button className="w-full bg-amber-500 text-black hover:bg-amber-600 font-semibold">
+                        <Button onClick={() => router.push("/contact")} className="w-full bg-amber-500 text-black hover:bg-amber-600 font-semibold">
                           Schedule Viewing
                         </Button>
                         <Button
